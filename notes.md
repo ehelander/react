@@ -1,30 +1,36 @@
 ## React Resources
 - [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
-  - create-react-app
-    - `npx create-react-app react-tutorial`
-  - start
-    - `cd react-tutorial`
-    - `yarn start`
-    - `localhost:3000`
-  - files
-    - `/public`
-      - includes `index.html`
-    - `/src`
-      - React code
-  - `/src/App.js`
-  - JSX: JavaScript + XML
+  - [Create React App](https://www.taniarascia.com/getting-started-with-react/#create-react-app)
+    - create-react-app
+      - `npx create-react-app react-tutorial`
+    - start
+      - `cd react-tutorial`
+      - `yarn start`
+      - `localhost:3000`
+    - files
+      - `/public`
+        - includes `index.html`
+      - `/src`
+        - React code
+    - `/src/App.js`
+  - [React Developer Tools](https://www.taniarascia.com/getting-started-with-react/#react-developer-tools)
+    - [React DevTools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+  - [JSX: JavaScript + XML](https://www.taniarascia.com/getting-started-with-react/#jsx-javascript--xml)
     - In JSX:
       - `className` instead of `class`
       - Properties and methods are camelCase (e.g., `onclick` -> `onClick`)
       - Self-closing tags must end in a slash (e.g., `<img />`)
-    - [React DevTools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-  - Components
-    - class components & simple components
-      - class component
-        - extends `Component`
-        - must include `render()`
-        - `return` can only return one parent element
-      - simple component
-        - a function (such as with ES6 arrow syntax)
-        - no use of `class` keyword
-        - no `render()`
+  - [Components](https://www.taniarascia.com/getting-started-with-react/#components)
+    - [Class Components](https://www.taniarascia.com/getting-started-with-react/#class-components)
+      - extend `Component`
+      - must include `render()`
+      - `return` can only return one parent element
+    - [Simple Component](https://www.taniarascia.com/getting-started-with-react/#simple-components)
+      - functions (such as with ES6 arrow syntax)
+      - no use of `class` keyword
+      - no `render()`
+  - [Props](https://www.taniarascia.com/getting-started-with-react/#props)
+    - `virtual DOM`
+    - data passed to a component via `props` is read-only
+  - [State](https://www.taniarascia.com/getting-started-with-react/#state)
+    - 
