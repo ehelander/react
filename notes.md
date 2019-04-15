@@ -36,3 +36,10 @@
   - [State](https://www.taniarascia.com/getting-started-with-react/#state)
     - to modify array within state, `this.setState()` must be used (rather than setting `this.state.property`)
     - `.filter()` creates a new array (rather than modifying the array passed in)
+  - [Submitting Form Data](https://www.taniarascia.com/getting-started-with-react/#submitting-form-data)
+  - [Pulling in API Data](https://www.taniarascia.com/getting-started-with-react/#pulling-in-api-data)
+    - `componentDidMount()`
+      - React lifecycle method for when a component has been inserted into the DOM
+  - [Building and Deploying a React App](https://www.taniarascia.com/getting-started-with-react/#building-and-deploying-a-react-app)
+    - `yarn build`
+    - 
