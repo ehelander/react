@@ -20,4 +20,11 @@
     - [React DevTools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   - Components
     - class components & simple components
-    - 
+      - class component
+        - extends `Component`
+        - must include `render()`
+        - `return` can only return one parent element
+      - simple component
+        - a function (such as with ES6 arrow syntax)
+        - no use of `class` keyword
+        - no `render()`
