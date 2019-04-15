@@ -1,5 +1,6 @@
 ## React Resources
 - [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
+  - [GitHub](https://github.com/taniarascia/react-tutorial/tree/master/src)
   - [Create React App](https://www.taniarascia.com/getting-started-with-react/#create-react-app)
     - create-react-app
       - `npx create-react-app react-tutorial`
@@ -16,10 +17,10 @@
   - [React Developer Tools](https://www.taniarascia.com/getting-started-with-react/#react-developer-tools)
     - [React DevTools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   - [JSX: JavaScript + XML](https://www.taniarascia.com/getting-started-with-react/#jsx-javascript--xml)
-    - In JSX:
+    - JSX:
       - `className` instead of `class`
-      - Properties and methods are camelCase (e.g., `onclick` -> `onClick`)
-      - Self-closing tags must end in a slash (e.g., `<img />`)
+      - properties and methods are camelCase (e.g., `onclick` -> `onClick`)
+      - self-closing tags must end in a slash (e.g., `<img />`)
   - [Components](https://www.taniarascia.com/getting-started-with-react/#components)
     - [Class Components](https://www.taniarascia.com/getting-started-with-react/#class-components)
       - extend `Component`
@@ -33,4 +34,5 @@
     - `virtual DOM`
     - data passed to a component via `props` is read-only
   - [State](https://www.taniarascia.com/getting-started-with-react/#state)
-    - 
+    - to modify array within state, `this.setState()` must be used (rather than setting `this.state.property`)
+    - `.filter()` creates a new array (rather than modifying the array passed in)
