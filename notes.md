@@ -1,9 +1,23 @@
 ## React Resources
 - [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
-  - Commands
-    - create-react-app
-      - `npx create-react-app react-tutorial`
-    - start
-      - `npm start`
-      - `localhost:3000`
-    
+  - create-react-app
+    - `npx create-react-app react-tutorial`
+  - start
+    - `cd react-tutorial`
+    - `yarn start`
+    - `localhost:3000`
+  - files
+    - `/public`
+      - includes `index.html`
+    - `/src`
+      - React code
+  - `/src/App.js`
+  - JSX: JavaScript + XML
+    - In JSX:
+      - `className` instead of `class`
+      - Properties and methods are camelCase (e.g., `onclick` -> `onClick`)
+      - Self-closing tags must end in a slash (e.g., `<img />`)
+    - [React DevTools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+  - Components
+    - class components & simple components
+    - 
