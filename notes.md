@@ -1,4 +1,5 @@
 ## React Resources
+### Getting Started with React
 - [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
   - [GitHub](https://github.com/taniarascia/react-tutorial/tree/master/src)
   - [Create React App](https://www.taniarascia.com/getting-started-with-react/#create-react-app)
@@ -43,4 +44,33 @@
   - [Building and Deploying a React App](https://www.taniarascia.com/getting-started-with-react/#building-and-deploying-a-react-app)
     - `yarn build`
   - [GitHub Pages](https://ehelander.github.io/react/react-tutorial)
-  
+### Using React with Nx
+- [Using React with Nx](https://nx.dev/guides/react)
+  - Creating a New Nx Workspace
+    - Create a new `nrwl` workspace
+      - `npx create-nx-workspace happynrwl --preset=empty`
+    - Create a new `happynrwl` workspace with a React application
+      - `npx create-nx-workspace happynrwl --preset=react`
+  - Generating a React Application
+    - Generate a new `frontend` application
+      - `ng g app frontend --framework=react`
+    - Serve app
+      - `ng serve frontend`
+    - Build app
+      - `ng build frontend`
+    - Lint app
+      - `ng lint frontend`
+    - Test the app using Jest
+      - `ng test frontend`
+    - Test the app using Cypress
+      - `ng e2e frontend-e2e`
+  - Generating a React Library
+    - Generate a new `home` library
+      - `ng g lib home --framework=react`
+    - Test lib
+      - `ng test home`
+    - Lint lib
+      - `ng lint home`
+    - Can import library into an application
+      - `import { Home } from '@myworkspace/home';`
+    - 
