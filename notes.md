@@ -42,4 +42,5 @@
       - React lifecycle method for when a component has been inserted into the DOM
   - [Building and Deploying a React App](https://www.taniarascia.com/getting-started-with-react/#building-and-deploying-a-react-app)
     - `yarn build`
-    - 
+  - [GitHub Pages](https://ehelander.github.io/react/react-tutorial)
+  
