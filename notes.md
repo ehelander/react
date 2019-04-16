@@ -46,12 +46,12 @@
   - [GitHub Pages](https://ehelander.github.io/react/react-tutorial)
 ### Using React with Nx
 - [Using React with Nx](https://nx.dev/guides/react)
-  - Creating a New Nx Workspace
+  - [Creating a New Nx Workspace](https://nx.dev/guides/react#creating-a-new-nx-workspace)
     - Create a new `nrwl` workspace
       - `npx create-nx-workspace happynrwl --preset=empty`
     - Create a new `happynrwl` workspace with a React application
       - `npx create-nx-workspace happynrwl --preset=react`
-  - Generating a React Application
+  - [Generating a React Application](https://nx.dev/guides/react#generating-a-react-application)
     - Generate a new `frontend` application
       - `ng g app frontend --framework=react`
     - Serve app
@@ -64,13 +64,27 @@
       - `ng test frontend`
     - Test the app using Cypress
       - `ng e2e frontend-e2e`
-  - Generating a React Library
+  - [Generating a React Library](https://nx.dev/guides/react#generating-a-react-library)
     - Generate a new `home` library
       - `ng g lib home --framework=react`
     - Test lib
       - `ng test home`
     - Lint lib
       - `ng lint home`
+  - [Using Library in Application](https://nx.dev/guides/react#using-library-in-application)
     - Can import library into an application
       - `import { Home } from '@myworkspace/home';`
-    - 
+  - [Sharing Code](https://nx.dev/guides/react#sharing-code)
+  - [Understanding Your Nx Workspace](https://nx.dev/guides/react#understanding-your-nx-workspace)
+    - See current dependency diagram of the workspace
+      - `yarn dep-graph`
+    - Print the apps affected by a PR
+      - `yarn affected:apps --base=master`
+    - Rerun build for all projects affected by a PR
+      - `yarn affected:build --base=master`
+    - Rerun unit tests for all projects affected by a PR
+      - `yarn affected:test --base=master`
+    - Rerun e2e tests for all projects affected by a PR
+      - `yarn affected:e2e --base=master`
+    - Rerun any target (here, `lint`) for all projects affected by a PR
+      - `yarn affected: --target=lint --base=master`
